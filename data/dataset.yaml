@@ -1,0 +1,10 @@
+# Please insure that your custom_dataset are put in same parent dir with YOLOv6_DIR
+train: E:\\IISc\\Object_detection\\IDD\\backup\\images\\train # train images
+val: E:\\IISc\\Object_detection\\IDD\\backup\\images\\val # val images
+test: E:\\IISc\\Object_detection\\IDD\\backup\\images\\test # test images (optional)
+
+# whether it is coco dataset, only coco dataset should be set to True.
+is_coco: False
+# Classes
+nc: 12  # number of classes
+names: ['bicycle', 'bus', 'traffic sign', 'motorcycle', 'car', 'traffic light', 'person', 'vehicle fallback', 'truck', 'autorickshaw', 'animal', 'rider']  # class names

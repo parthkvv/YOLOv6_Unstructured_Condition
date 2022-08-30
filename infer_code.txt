@@ -1,0 +1,1 @@
+python infer.py --weights E:\IISc\Object_detection\YOLOv6\YOLOv6-main\weights\best_ckpt.pt --source E:\IISc\Object_detection\YOLOv6\YOLOv6-main\sample_images\frontFar_BLR-2018-03-22_17-39-26_2_frontFar_000006_r.jpg --yaml E:\IISc\Object_detection\YOLOv6\YOLOv6-main\data\dataset.yaml

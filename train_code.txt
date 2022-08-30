@@ -1,0 +1,1 @@
+python train.py --batch 2 --conf E:\IISc\Object_detection\YOLOv6\YOLOv6-main\configs\yolov6s.py --data E:\IISc\Object_detection\YOLOv6\YOLOv6-main\data\dataset.yaml --device 0 --epochs 25 --eval-final-only
