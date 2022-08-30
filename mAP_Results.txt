@@ -1,0 +1,35 @@
+███| 1970/1970 [08:54<00:00,  3.98it/s]Inferencing model in val datasets.: 100%|███████████████████████████████████████████| 1970/1970 [08:54<00:00,  3.69it/s]
+
+Evaluating speed.
+Average pre-process time: 0.19 ms
+Average inference time: 9.80 ms
+Average NMS time: 1.78 ms
+
+Evaluating mAP by pycocotools.
+Saving runs\val\exp4\predictions.json...
+loading annotations into memory...
+Done (t=1.58s)
+creating index...
+index created!
+Loading and preparing results...
+DONE (t=13.10s)
+creating index...
+index created!
+Running per image evaluation...
+Evaluate annotation type *bbox*
+DONE (t=236.54s).
+Accumulating evaluation results...
+DONE (t=36.07s).
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.259
+ Average Precision  (AP) @[ IoU=0.50      | area=   all | maxDets=100 ] = 0.428
+ Average Precision  (AP) @[ IoU=0.75      | area=   all | maxDets=100 ] = 0.257
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area= small | maxDets=100 ] = 0.052
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area=medium | maxDets=100 ] = 0.264
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area= large | maxDets=100 ] = 0.573
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets=  1 ] = 0.163
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets= 10 ] = 0.323
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.348
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area= small | maxDets=100 ] = 0.143
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=medium | maxDets=100 ] = 0.401
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area= large | maxDets=100 ] = 0.655
+Results saved to runs\val\exp4
