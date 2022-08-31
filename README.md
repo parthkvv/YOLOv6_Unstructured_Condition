@@ -1,5 +1,3 @@
-YOLOv6 readme file(https://github.com/meituan/YOLOv6)
-
 Dataset Preparation
 	The base data directory should consist of the following files:
 		"images" folder - containing the images for train, test and val
